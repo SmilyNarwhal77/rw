@@ -1,5 +1,5 @@
-			let p0 = `{
-        "Number": 0,
+let p0 = `{
+	"Number": 0,
         "Type": "Test",
         "Username": "Test",
         "Password": "Test",
@@ -13,9 +13,9 @@
           "Level": 0,
           "Colour": "146"
         }
-      }`;
-      localStorage.setItem('p0',p0)
-      let p1 = `{
+}`;
+localStorage.setItem('p0',p0);
+let p1 = `{
         "Number": 1,
         "Type": "BOSS",
         "Username": "Keegan",
@@ -30,9 +30,9 @@
           "Level": 0,
           "Colour": "aff"
         }
-      }`;
-      localStorage.setItem('p1', p1);
-      let p2 = `{
+}`;
+localStorage.setItem('p1', p1);
+let p2 = `{
         "Number": 2,
         "Type": "BOSS",
         "Username": "Yin Hyang",
@@ -47,9 +47,9 @@
           "Level": 0,
           "Colour": "000"
         }
-      }`;
-      localStorage.setItem('p2', p2);
-      let p3 = `{
+}`;
+localStorage.setItem('p2', p2);
+let p3 = `{
         "Number": 3,
         "Type": "ADMIN",
         "Username": "Leroy",
@@ -64,9 +64,9 @@
           "Level": 0,
           "Colour": "428"
         }
-      }`;
-      localStorage.setItem('p3', p3);
-      let p4 = `{
+}`;
+localStorage.setItem('p3', p3);
+let p4 = `{
         "Number": 4,
         "Type": "ADMIN",
         "Username": "Ethan",
@@ -81,9 +81,9 @@
           "Level": 0,
           "Colour": "a05"
         }
-      }`;
-      localStorage.setItem('p4', p4);
-      let p5 = `{
+}`;
+localStorage.setItem('p4', p4);
+let p5 = `{
         "Number": 5,
         "Type": "Player",
         "Username": "Zheng Xian",
@@ -98,9 +98,9 @@
           "Level": 0,
           "Colour": "d93"
         }
-      }`;
-      localStorage.setItem('p5', p5);
-      let p6 = `{
+}`;
+localStorage.setItem('p5', p5);
+let p6 = `{
         "Number": 6,
         "Type": "Player",
         "Username": "Chenhao",
@@ -115,9 +115,9 @@
           "Level": 0,
           "Colour": "bd9"
         }
-      }`;
-      localStorage.setItem('p6', p6);
-      let p7 = `{
+}`;
+localStorage.setItem('p6', p6);
+let p7 = `{
         "Number": 7,
         "Type": "Player",
         "Username": "Yifan",
@@ -132,9 +132,9 @@
           "Level": 0,
           "Colour": "1f1"
         }
-      }`;
-      localStorage.setItem('p7', p7);
-      let p8 = `{
+}`;
+localStorage.setItem('p7', p7);
+let p8 = `{
         "Number": 8,
         "Type": "Player",
         "Username": "Andre",
@@ -149,9 +149,9 @@
           "Level": 0,
           "Colour": "694"
         }
-      }`;
-      localStorage.setItem('p8', p8);
-      let p9 = `{
+}`;
+localStorage.setItem('p8', p8);
+let p9 = `{
         "Number": 9,
         "Type": "Player",
         "Username": "Yin Swee",
@@ -166,10 +166,10 @@
           "Level": 0,
           "Colour": "faa"
         }
-      }`;
-      localStorage.setItem('p9', p9);
-      p0 = JSON.parse(p0)
-      p1 = JSON.parse(p1)
+}`;
+localStorage.setItem('p9', p9);
+p0 = JSON.parse(p0)
+p1 = JSON.parse(p1)
       p2 = JSON.parse(p2)
       p3 = JSON.parse(p3)
       p4 = JSON.parse(p4)
