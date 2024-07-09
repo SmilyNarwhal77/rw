@@ -46,6 +46,15 @@ table, th, td {
  .greenyellow {
      background-color: greenyellow;
 }
- .cyan {
+ .moccasin {
+     background-color: moccasin;
+}
+.magenta {
+     background-color: magenta;
+}
+.thistle {
+     background-color: thistle;
+}
+.cyan {
      background-color: cyan;
 }
