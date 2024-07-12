@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="signup.css"> <!-- external style sheet -->
     <link rel="icon" href="image (1).png"> <!-- Logo -->
     <script>
+      localStorage.getItem('p0');
+      console.log(p0.username);
       function submit() {
         let username = document.getElementById('username');
         console.log(username.value);
@@ -14,7 +16,7 @@
         console.log(password.value);
         let email = document.getElementById('email');
         console.log(email.value);
-      }
+      };
     </script>
   </head>
   <body>
