@@ -1,7 +1,7 @@
 body {
   background-color: #9999FF;
   border: 1px dotted #6C28E1;
-  font-family: small-caps; 
+  font-variant: small-caps; 
 }
 nav {
   background-color: #4444FF;
