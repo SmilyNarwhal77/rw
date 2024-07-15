@@ -354,9 +354,8 @@ let p18 = `{
 	    }`;
 localStorage.setItem('p18', p18);
 let abcd = localStorage.getItem('p0');
-document.write(abcd.Stats.SP)
-	    const bcrypt = require('bcrypt');
-
+document.write(abcd.Stats.SP);
+import bcrypt from 'bcrypt';
 async function hashPassword(password) {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
