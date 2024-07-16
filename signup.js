@@ -21,7 +21,7 @@ function submit() {
   }
   let email = document.querySelector("#email");
   const emailVal = email.value;
-  if (emailVal.length < 5 || emailVal.length > 40) {
+  if (emailVal.length < 5 || emailVal.length > 40 || '@' in emailVal = 'True') {
     email.classList.remove("valid");
     email.classList.add("invalid");
   } else {
@@ -29,4 +29,4 @@ function submit() {
     email.classList.add("valid");
     console.log("email SUCCESS value:", emailVal);
   }
-};
+}
