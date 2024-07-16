@@ -1,7 +1,7 @@
 function submit() {
   let username = document.querySelector("#username");
   const usernameVal = username.value;
-  if (usernameVal.length < 5 || usernameVal.length > 30) {
+  if (usernameVal.length < 5 || usernameVal.length > 25) {
     username.classList.remove("valid");
     username.classList.add("invalid");
   } else {
@@ -12,7 +12,7 @@ function submit() {
   
   let password = document.querySelector("#password");
   const passwordVal = password.value;
-  if (passwordVal.length < 5 || passwordVal.length > 30) {
+  if (passwordVal.length < 5 || passwordVal.length > 45) {
     password.classList.remove("valid");
     password.classList.add("invalid");
   } else {
@@ -23,7 +23,7 @@ function submit() {
   
   let email = document.querySelector("#email");
   const emailVal = email.value;
-  if (emailVal.length < 5 || emailVal.length > 30) {
+  if (emailVal.length < 5 || emailVal.length > 40) {
     email.classList.remove("valid");
     email.classList.add("invalid");
   } else {
