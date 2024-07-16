@@ -22,7 +22,15 @@ function submit() {
   }
   
   let email = document.querySelector("#email");
-  console.log(email.value);
+  const emailVal = email.value;
+  if (emailVal.length < 5 || emailVal.length > 30) {
+    email.classList.remove("valid");
+    email.classList.add("invalid");
+  } else {
+    email.classList.remove("invalid");  
+    email.classList.add("valid");
+    console.log("email SUCCESS value:", emailVal);
+  }
 
-  alert("Function not available");
+  alert("Test Only!");
 };
