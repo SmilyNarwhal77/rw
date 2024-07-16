@@ -6,36 +6,6 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="signup.css"> <!-- external style sheet -->
     <link rel="icon" href="image (1).png"> <!-- Logo -->
-    <script>
-      function submit() {
-        let username = document.querySelector("#username");
-        const usernameVal = username.value;
-        if (usernameVal.length <= 5 || usernameVal.length >= 30) {
-          username.classList.add("invalid");
-        } else {
-          username.classList.add("valid");  
-          console.log("Username value:", usernameVal);
-        }
-        
-        let password = document.querySelector("#password");
-        const passwordVal = password.value;
-        if (passwordVal.length <= 5 || passwordVal.length >= 30) {
-          password.classList.add("invalid");
-        } else {
-          password.classList.add("valid");  
-          console.log("Password value:", passwordVal);
-        }
-        
-        let email = document.querySelector("#email");
-        console.log(email.value);
-
-        username.value = "";
-        password.value = "";
-        email.value = "";
-
-        alert("Function not available");
-      };
-    </script>
   </head>
   <body>
     <header>
@@ -59,5 +29,7 @@
       <br>
       <button onclick="submit()">Submit</button>
     </main>
+
+    <script src="./signup.js" defer></script>
   </body>
 </html>
