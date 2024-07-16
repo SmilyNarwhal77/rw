@@ -19,3 +19,15 @@ nav > button {
   width: 80px;
   align-items: stretch;
 }
+h1 {
+  font-family: congenial,cursive;
+  font-size: normal;
+}
+h4 {
+  font-family:congenial,cursive;
+  font-size: normal;
+}
+h4 > span {
+  font-weight: 600;
+  font-style: italic;
+}
