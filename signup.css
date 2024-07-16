@@ -14,5 +14,11 @@ nav {
   text-align: center;
   justify-content: center;
 }
+.valid {
+  border: 5px double greenyellow;
+}
+.invalid {
+  border: 10px double red;
+}
 
   
