@@ -8,20 +8,32 @@
     <link rel="icon" href="image (1).png"> <!-- Logo -->
     <script>
       function submit() {
-        let username = document.getElementById('username');
-        if username.value.length <= 5 or username.value.length >= 30;
+        let username = document.querySelector("#username");
+        const usernameVal = username.value;
+        if (usernameVal.length <= 5 || usernameVal.length >= 30) {
           username.classList.add("invalid");
-        else;
+        } else {
           username.classList.add("valid");  
-          console.log(username.value);
-        let password = document.getElementById('password');
-        if password.value.length <= 5 or password.value.length >= 30;
+          console.log("Username value:", usernameVal);
+        }
+        
+        let password = document.querySelector("#password");
+        const passwordVal = password.value;
+        if (passwordVal.length <= 5 || passwordVal.length >= 30) {
           password.classList.add("invalid");
-        else;
+        } else {
           password.classList.add("valid");  
-          console.log(password.value);
-        let email = document.getElementById('email');
+          console.log("Password value:", passwordVal);
+        }
+        
+        let email = document.querySelector("#email");
         console.log(email.value);
+
+        username.value = "";
+        password.value = "";
+        email.value = "";
+
+        alert("Function not available");
       };
     </script>
   </head>
@@ -41,15 +53,11 @@
       <br>
       <input type="password" id="password" name="password" required minlength="6" maxlength="18" size="20" reqiured autocomplete="Password">
       <br>
-      <label for="email">Email(For Verification within 2 weeks):</label>
+      <label for="email">Email (For Verification within 2 weeks):</label>
       <br>
       <input type="email" id="email" name="email" required minlength="8" maxlength="25" size="30" reqiured autocomplete="Email">
       <br>
       <button onclick="submit()">Submit</button>
     </main>
-    <script>
-      localStorage.getItem('p0');
-      console.log(p0.Username);
-    </script>
   </body>
 </html>
