@@ -486,20 +486,20 @@ let p23 = `{
         }
 	    }`;
 localStorage.setItem('p23', p23);
-let abcd = localStorage.getItem('p0');
-document.write(abcd.Stats.SP);
-import bcrypt from 'bcrypt';
-async function hashPassword(password) {
-    const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password, salt);
-    return hashedPassword;
-    localStorage.setItem('hi', hashedPassword);
-};
-async function verifyPassword(storedHash, inputPassword) {
-    const isMatch = await bcrypt.compare(inputPassword, storedHash);
-    return isMatch;
-};
-hashPassword("123");    
+//let abcd = localStorage.getItem('p0');
+//document.write(abcd.Stats.SP);
+//import bcrypt from 'bcrypt';
+//async function hashPassword(password) {
+    //const salt = await bcrypt.genSalt(10);
+    //const hashedPassword = await bcrypt.hash(password, salt);
+    //return hashedPassword;
+    //localStorage.setItem('hi', hashedPassword);
+//};
+//async function verifyPassword(storedHash, inputPassword) {
+    //const isMatch = await bcrypt.compare(inputPassword, storedHash);
+    //return isMatch;
+//};
+//hashPassword("123");    
     </script>
   </body>
 </html>
