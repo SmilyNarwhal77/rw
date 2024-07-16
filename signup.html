@@ -9,9 +9,17 @@
     <script>
       function submit() {
         let username = document.getElementById('username');
-        console.log(username.value);
+        if username.value.length <= 5 or username.value.length >= 30;
+          username.classList.add("invalid");
+        else;
+          username.classList.add("valid");  
+          console.log(username.value);
         let password = document.getElementById('password');
-        console.log(password.value);
+        if password.value.length <= 5 or password.value.length >= 30;
+          password.classList.add("invalid");
+        else;
+          password.classList.add("valid");  
+          console.log(password.value);
         let email = document.getElementById('email');
         console.log(email.value);
       };
@@ -27,15 +35,15 @@
     <main>
       <label for="username">Username:</label>
       <br>
-      <input type="text" id="username" name="username" required minlength="6" maxlength="18" size="20" autocomplete="Username">
+      <input type="text" id="username" name="username" required minlength="6" maxlength="18" size="20" reqiured autocomplete="Username">
       <br>
       <label for="password">Password:</label>
       <br>
-      <input type="password" id="password" name="password" required minlength="6" maxlength="18" size="20" autocomplete="Password">
+      <input type="password" id="password" name="password" required minlength="6" maxlength="18" size="20" reqiured autocomplete="Password">
       <br>
       <label for="email">Email(For Verification within 2 weeks):</label>
       <br>
-      <input type="email" id="email" name="email" required minlength="8" maxlength="25" size="30" autocomplete="Email">
+      <input type="email" id="email" name="email" required minlength="8" maxlength="25" size="30" reqiured autocomplete="Email">
       <br>
       <button onclick="submit()">Submit</button>
     </main>
