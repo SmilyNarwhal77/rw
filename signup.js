@@ -9,7 +9,6 @@ function submit() {
     username.classList.add("valid");  
     console.log("Username SUCCESS value:", usernameVal);
   }
-  
   let password = document.querySelector("#password");
   const passwordVal = password.value;
   if (passwordVal.length < 5 || passwordVal.length > 45) {
@@ -20,7 +19,6 @@ function submit() {
     password.classList.add("valid");
     console.log("Password SUCCESS value:", passwordVal);
   }
-  
   let email = document.querySelector("#email");
   const emailVal = email.value;
   if (emailVal.length < 5 || emailVal.length > 40) {
@@ -31,6 +29,4 @@ function submit() {
     email.classList.add("valid");
     console.log("email SUCCESS value:", emailVal);
   }
-
-  alert("Test Only!");
 };
