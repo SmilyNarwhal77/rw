@@ -20,5 +20,6 @@ nav {
 input.invalid {
   border: 5px solid red;
 }
-
-  
+input.valid {
+  border: 5px solid green;
+}
