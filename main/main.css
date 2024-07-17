@@ -9,7 +9,7 @@ nav {
   align-items: stretch;
   height: 50px;
   position: sticky;
-  top: 1
+  top: 50
 }
 nav > button {
   color: #fbafe2;
