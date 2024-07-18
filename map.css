@@ -1,23 +1,23 @@
 table, th, td {
      border:1px solid black;
 }
- .pink {
-     background-color: pink;
+ .azure {
+     background-color: azure;
 }
- .red {
-     background-color: red;
+ .beige {
+     background-color: beige;
 }
- .orange {
-     background-color: orange;
+ .bisque {
+     background-color: bisque;
 }
- .yellow {
-     background-color: yellow;
+ .burlywood {
+     background-color: burlywood;
 }
- .green {
-     background-color: green;
+ .chartreuse {
+     background-color: chartreuse;
 }
- .blue {
-     background-color: blue;
+ .cyan {
+     background-color: cyan;
 }
  .purple {
      background-color: purple;
