@@ -1,5 +1,14 @@
 body {
-  background-color: #c9c9ff;
+  background: conic-gradient(
+    from 90deg,
+    hsl(0 100% 50%),
+    hsl(72 100% 50%),
+    hsl(144 100% 50%),
+    hsl(216 100% 50%),
+    hsl(288 100% 50%),
+    hsl(0 100% 50%)
+  );
+  clip-path: circle(50%);
   border: 1px dotted #c9c9ff;
   font-variant: small-caps; 
 }
@@ -9,7 +18,7 @@ nav {
   align-items: stretch;
   height: 50px;
   position: sticky;
-  top: 0;
+  top: 100;
 }
 nav > button {
   color: #fbafe2;
