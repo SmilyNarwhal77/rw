@@ -10,7 +10,9 @@ body {
   );
   clip-path: circle(50%);
   border: 1px dotted #c9c9ff;
-  font-variant: small-caps; 
+  font-variant: small-caps;
+  width: 120vw;
+  height: 120vh
 }
 nav {
   background-color: #affbf2;
