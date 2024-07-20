@@ -1,18 +1,18 @@
 body {
   background: conic-gradient(
     from 0deg,
-    hsl(0 100% 50%),
-    hsl(72 100% 50%),
-    hsl(144 100% 50%),
-    hsl(216 100% 50%),
-    hsl(288 100% 50%),
-    hsl(0 100% 50%)
+    hsla(0 100% 50% 0.3),
+    hsl(72 100% 50% 0.3),
+    hsl(144 100% 50% 0.3),
+    hsl(216 100% 50% 0.3),
+    hsl(288 100% 50% 0.3),
+    hsl(0 100% 50% 0.3)
   );
   clip-path: circle(50%);
   border: 1px dotted #c9c9ff;
   font-variant: small-caps;
-  width: 120vw;
-  height: 120vh
+  width: 100vw;
+  height: 100vh
 }
 nav {
   background-color: #affbf2;
