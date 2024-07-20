@@ -2,11 +2,11 @@ body {
   background: conic-gradient(
     from 0deg,
     hsla(0 100% 50% 0.3),
-    hsl(72 100% 50% 0.3),
-    hsl(144 100% 50% 0.3),
-    hsl(216 100% 50% 0.3),
-    hsl(288 100% 50% 0.3),
-    hsl(0 100% 50% 0.3)
+    hsla(72 100% 50% 0.3),
+    hsla(144 100% 50% 0.3),
+    hsla(216 100% 50% 0.3),
+    hsla(288 100% 50% 0.3),
+    hsla(0 100% 50% 0.3)
   );
   clip-path: circle(50%);
   border: 1px dotted #c9c9ff;
