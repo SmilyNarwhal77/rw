@@ -12,11 +12,16 @@ body {
   border: 1px dotted #c9c9ff;
   font-variant: small-caps;
   width: 100vw;
-  height: 100vh
+  height: 100vh;
+  box-sizing: border-box;
 }
 nav {
   background-color: #affbf2;
   justify-content: space-evenly;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
   align-items: stretch;
   height: 50px;
   position: sticky;
