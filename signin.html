@@ -38,5 +38,47 @@
         </fieldset>
       </article>
     </main>
+    <script>
+      function submit() {
+        let i = document.getElementById("submit");
+        let password = i.value;
+        let p0 = localStorage.getItem('p0');
+        let p1 = localStorage.getItem('p1');
+        let p2 = localStorage.getItem('p2');
+        let p3 = localStorage.getItem('p3');
+        let p4 = localStorage.getItem('p4');
+        let p5 = localStorage.getItem('p5');
+        let p6 = localStorage.getItem('p6');
+        let p7 = localStorage.getItem('p7');
+        let p8 = localStorage.getItem('p8');
+        let p9 = localStorage.getItem('p9');
+        let p10 = localStorage.getItem('p10');
+        let p11 = localStorage.getItem('p11');
+        let p12 = localStorage.getItem('p12');
+        let p13 = localStorage.getItem('p13');
+        let p14 = localStorage.getItem('p14');
+        let p15 = localStorage.getItem('p15');
+        let p16 = localStorage.getItem('p16');
+        let p17 = localStorage.getItem('p17');
+        let p18 = localStorage.getItem('p18');
+        let p19 = localStorage.getItem('p19');
+        let p20 = localStorage.getItem('p20');
+        let p21 = localStorage.getItem('p21');
+        let p22 = localStorage.getItem('p22');
+        let p23 = localStorage.getItem('p23');
+        /*let p24 = localStorage.getItem('p24');
+        let p25 = localStorage.getItem('p25');*/
+        let index = 0
+        if (password !== p${index}.Password) {
+          if (index != 25) {
+            index += 1;
+          } else {
+            i.style.border = "3px solid red"
+          }
+        } else {
+          const newDiv = document.createElement("div");
+          const newContent = document.createTextNode("You have been logged in to" + p${index});
+          newDiv.appendChild(newContent);
+    </script>
   </body>
 </html>
