@@ -1,3 +1,7 @@
+:root {
+  --font-type: congenial, cursive;
+}
+
 body {
   background: conic-gradient(
     from 0deg,
@@ -24,7 +28,7 @@ nav {
   align-items: stretch;
   height: 50px;
   position: sticky;
-  top: 80px;
+  top: 0;
 }
 nav > button {
   color: #fbafe2;
@@ -35,13 +39,14 @@ nav > button {
   height: 50px;
   width: 80px;
   align-items: stretch;
+  font-family: var(--font-type);
 }
 h1 {
-  font-family: congenial,cursive;
+  font-family: var(--font-type);
   font-size: normal;
 }
 h4 {
-  font-family:congenial,cursive;
+  font-family: var(--font-type);
   font-size: normal;
 }
 h4 > a > span {
