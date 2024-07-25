@@ -2,6 +2,8 @@
   --font-type: congenial, cursive;
 }
 
+html {margin:0;padding:0;}
+
 body {
   background: conic-gradient(
     from 0deg,
@@ -15,8 +17,9 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   border: 1px dotted #c9c9ff;
   font-variant: small-caps;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  margin: 0;
   box-sizing: border-box;
 }
 nav {
