@@ -15,12 +15,7 @@ body {
     hsla(0 50% 10% 0.3)
   );
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  border: 1px dotted #c9c9ff;
   font-variant: small-caps;
-  width: 100%;
-  overflow-y: auto;
-  margin: 0;
-  box-sizing: border-box;
 }
 nav {
   background-color: #affbf2;
