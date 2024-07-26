@@ -13,29 +13,33 @@
       <a href="smilynarwhal77.github.io">&169;</a>
     </nav>
     <main>
-      <table>
-        <thead>
-          Table
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
       <input type="text" id="text" name="text" placeholder="Your Long Dick">
       <input type="number" id="number" name="number" placeholder="69">
-      <button onclick="submit()">Done!</button>
+      <button onclick="tableCreate()">Done!</button>
     </main>
     <script>
-      function submit() {
+      function tableCreate() {
         let text = document.getElementById("text");
         let a = text.value;
-        var row = document.createElement("tr");
-        var cell = document.createElement("td");
-        cell.innerHTML = "<td>" + a + "</td>" ;
         let number = document.getElementById("number");
         let b = number.value;
-        var row = document.createElement("tr");
-        var cell = document.createElement("td");
-        cell.innerHTML = "<td>" + b + "</td>" ;
+        const body = document.body,
+        tbl = document.createElement('table');
+        tbl.style.width = '100px';
+        tbl.style.height = '50px';
+        tbl.style.border = '1px solid black';
+        for (let i = 0; i < 2; i++) {
+          const tr = tbl.insertRow();
+          for (let j = 0; j < 1; j++) {
+            const td = tr.insertCell();
+            td.style.border = '1px solid black';
+            td.innerHTML = '<td>' + a + '</td>'
+            const te = tr.insertCell();
+            te.style.border = '1px solid black';
+            te.innerHTML = '<td>' + b + '</td>'
+          }
+        }
+        body.appendChild(tbl);
       }
     </script>
   </body>
