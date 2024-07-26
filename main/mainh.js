@@ -762,7 +762,7 @@ function SHA512(str) {
 		binarray.push(H[i].lowOrder);
 	}
 	return binb2hex(binarray);
-}
+};
 function signin() {
 	document.location = "https://smilynarwhal77.github.io/signin.html"
 }
