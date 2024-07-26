@@ -478,7 +478,7 @@ let p25 = `{
         "Type": "Player",
         "Username": "Sean",
         "Password": "3.14159zYxWvUtSrQpOnMlKjIhGfEdCbA95141.3",
-        "Email": "wang_jingxiang@students.edu.sg",
+        "Email": "cao_zixiao_sean@students.edu.sg",
         "Stats": {
           "Money": 100,
           "Soliders": 5,
@@ -763,6 +763,8 @@ function SHA512(str) {
 	}
 	return binb2hex(binarray);
 }
-
+function signin() {
+	document.location = "https://smilynarwhal77.github.io/signin.html"
+}
 /* add login function on landing page? */
 /* define signout() */
