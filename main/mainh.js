@@ -13,7 +13,12 @@ let p0 = `{
           "Level": 0,
           "Colour": "146",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
+,
+      	  "Gold": 0,
+	  "Diamond": 0
         }
       }`;
 localStorage.setItem('p0', p0);
@@ -32,7 +37,9 @@ let p1 = `{
           "Level": 0,
           "Colour": "hotpink",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p1', p1);
@@ -51,7 +58,9 @@ let p2 = `{
           "Level": 0,
           "Colour": "cyan",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p2', p2);
@@ -70,7 +79,9 @@ let p3 = `{
           "Level": 0,
           "Colour": "orange",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p3', p3);
@@ -89,7 +100,9 @@ let p4 = `{
           "Level": 0,
           "Colour": "tomato",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p4', p4);
@@ -108,7 +121,9 @@ let p5 = `{
           "Level": 0,
           "Colour": "d93",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p5', p5);
@@ -127,7 +142,9 @@ let p6 = `{
           "Level": 0,
           "Colour": "bd9",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p6', p6);
@@ -146,7 +163,9 @@ let p7 = `{
           "Level": 0,
           "Colour": "1f1",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p7', p7);
@@ -165,7 +184,9 @@ let p8 = `{
           "Level": 0,
           "Colour": "694",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p8', p8);
@@ -184,7 +205,9 @@ let p9 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p9', p9);
@@ -203,7 +226,9 @@ let p10 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p10', p10);
@@ -222,7 +247,9 @@ let p11 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p11', p11);
@@ -241,7 +268,9 @@ let p12 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p12', p12);
@@ -260,7 +289,9 @@ let p13 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p13', p13);
@@ -279,7 +310,9 @@ let p14 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p14', p14);
@@ -298,7 +331,9 @@ let p15 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p15', p15);
@@ -317,7 +352,9 @@ let p16 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p16', p16);
@@ -336,7 +373,9 @@ let p17 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p17', p17);
@@ -355,7 +394,9 @@ let p18 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p18', p18);
@@ -374,7 +415,9 @@ let p19 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p19', p19);
@@ -393,7 +436,9 @@ let p20 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p20', p20);
@@ -412,7 +457,9 @@ let p21 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p21', p21);
@@ -431,7 +478,9 @@ let p22 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p22', p22);
@@ -450,7 +499,9 @@ let p23 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p23', p23);
@@ -469,7 +520,9 @@ let p24 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p24', p24);
@@ -488,7 +541,9 @@ let p25 = `{
           "Level": 0,
           "Colour": "faa",
 	  "Wood": 5,
-   	  "Metal": 5
+   	  "Metal": 5,
+      	  "Gold": 0,
+	  "Diamond": 0,
         }
 	    }`;
 localStorage.setItem('p25', p25);
