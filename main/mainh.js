@@ -765,7 +765,7 @@ function SHA512(str) {
 };
 function signin() {
 	document.location = "https://smilynarwhal77.github.io/signin.html"
-}
+};
 function change() {
 	let navbar = document.querySelector("nav");
 	let hidden = document.querySelector("input");
@@ -777,5 +777,8 @@ function change() {
 				<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
 			</nav>`
 	}
+};
+function aboutus() {
+	document.location = "https://smilynarwhal77.github.io/others/developers.html"
 }
 /* define signout() */
