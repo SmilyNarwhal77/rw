@@ -22,18 +22,21 @@
       </table>
       <input type="text" id="text" name="text" placeholder="Your Long Dick">
       <input type="number" id="number" name="number" placeholder="69">
+      <button onclick="submit()">Done!</button>
     </main>
     <script>
-      let text = document.getElementById("text");
-      let a = text.value;
-      var row = document.createElement("tr");
-      var cell = document.createElement("td");
-      cell.innerHTML = "<td>" + a + "</td>" ;
-      let number = document.getElementById("number");
-      let b = number.value;
-      var row = document.createElement("tr");
-      var cell = document.createElement("td");
-      cell.innerHTML = "<td>" + b + "</td>" ;
+      function submit() {
+        let text = document.getElementById("text");
+        let a = text.value;
+        var row = document.createElement("tr");
+        var cell = document.createElement("td");
+        cell.innerHTML = "<td>" + a + "</td>" ;
+        let number = document.getElementById("number");
+        let b = number.value;
+        var row = document.createElement("tr");
+        var cell = document.createElement("td");
+        cell.innerHTML = "<td>" + b + "</td>" ;
+      }
     </script>
   </body>
 </html>
