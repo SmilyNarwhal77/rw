@@ -5,7 +5,7 @@ let p0 = `{
         "Password": "Test",
         "Email": "Test@Tests.com",
         "Stats": {
-          "Money": 100,
+          "Money": 100, 
           "Soliders": 5,
           "SP": 5,
           "Power": 25,
