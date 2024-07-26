@@ -1,3 +1,4 @@
+let status = "out";
 let p0 = `{
         "Number": 0,
         "Type": "Test",
@@ -824,7 +825,6 @@ function signin() {
 function change() {
 	let navbar = document.querySelector("nav");
 	let hidden = document.querySelector("input");
-	let status = "out"
 	if (status = "out") {
 		navbar.innerHTML = `<nav>
 				<button onclick="buycheese()" style="background-color: #FFD700; color: black;">Buy Cheese</button>
