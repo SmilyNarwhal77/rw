@@ -766,5 +766,14 @@ function SHA512(str) {
 function signin() {
 	document.location = "https://smilynarwhal77.github.io/signin.html"
 }
+function change() {
+	let navbar = document.querySelector("nav");
+	navbar.innerHTML = `<nav>
+			<button onclick="buycheese()" style="background-color: #FFD700; color: black;">Buy Cheese</button>
+			<button onclick="subscribe()" style = "background-color: #695fd9; color: white;">Subscribe Now</button>
+			<button onclick="signout()">Sign Out</button>
+			<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
+		</nav>`
+}
 /* add login function on landing page? */
 /* define signout() */
