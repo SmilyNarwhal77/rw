@@ -768,12 +768,14 @@ function signin() {
 }
 function change() {
 	let navbar = document.querySelector("nav");
-	navbar.innerHTML = `<nav>
-			<button onclick="buycheese()" style="background-color: #FFD700; color: black;">Buy Cheese</button>
-			<button onclick="subscribe()" style = "background-color: #695fd9; color: white;">Subscribe Now</button>
-			<button onclick="signout()">Sign Out</button>
-			<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
-		</nav>`
+	let hidden = document.querySelector("input");
+	if (hidden.value == "admin") {
+		navbar.innerHTML = `<nav>
+				<button onclick="buycheese()" style="background-color: #FFD700; color: black;">Buy Cheese</button>
+				<button onclick="subscribe()" style = "background-color: #695fd9; color: white;">Subscribe Now</button>
+				<button onclick="signout()">Sign Out</button>
+				<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
+			</nav>`
+	}
 }
-/* add login function on landing page? */
 /* define signout() */
