@@ -834,7 +834,11 @@ function change() {
 				<button onclick="subscribe()" style = "background-color: #695fd9; color: white;">Subscribe Now</button>
 				<button onclick="signout()">Sign Out</button>
 			</nav>`;
-	} else {
+	} else if (navbar.innerHTML = `<nav>
+				<button onclick="buycheese()" style="background-color: #FFD700; color: black;">Buy Cheese</button>
+				<button onclick="subscribe()" style = "background-color: #695fd9; color: white;">Subscribe Now</button>
+				<button onclick="signout()">Sign Out</button>
+			</nav>`;) {
 		navbar.innerHTML = `<nav>
   				<button onclick="aboutus()" style="background-color: mediumvioletred; color: white;">About Us</button>
 				<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
