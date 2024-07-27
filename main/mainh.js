@@ -842,7 +842,7 @@ function change() {
 		navbar.innerHTML = `<nav>
   				<button onclick="aboutus()" style="background-color: mediumvioletred; color: white;">About Us</button>
 				<button onclick="signin()" style="background-color: red; color: white;">Sign In</button>
-			</nav>`;
+			</nav>`
 	}
 };
 function aboutus() {
