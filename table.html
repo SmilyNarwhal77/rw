@@ -24,10 +24,7 @@
         let number = document.getElementById("number");
         let b = number.value;
         const body = document.body,
-        tbl = document.createElement('table');
-        tbl.style.width = '100px';
-        tbl.style.height = '50px';
-        tbl.style.border = '1px solid black';
+        tbl = document.querySelector('table');
         for (let i = 0; i < 1; i++) {
           const tr = tbl.insertRow();
           for (let j = 0; j < 1; j++) {
@@ -39,7 +36,6 @@
             te.innerHTML = '<td>' + b + '</td>'
           }
         }
-        body.appendChild(tbl);
       }
     </script>
   </body>
