@@ -66,19 +66,16 @@
         let p21 = localStorage.getItem('p21');
         let p22 = localStorage.getItem('p22');
         let p23 = localStorage.getItem('p23');
-        /*let p24 = localStorage.getItem('p24');
-        let p25 = localStorage.getItem('p25');*/
-        let index = 0
-        if (password !== p${index}.Password) {
-          if (index != 25) {
-            index += 1;
-          } else {
-            i.style.border = "3px solid red"
-          }
-        } else {
+        let p24 = localStorage.getItem('p24');
+        let p25 = localStorage.getItem('p25');
+
+        let p = localStorage.getItem("players");
+        let c;
+        for (k of p) { if (k.Password == password) {c = k; break;} else { if (k == p[-1]) {c = 0; break;} else {continue;}}}; if (c == 0) {i.style.border = "3px solid red"; return;};
           const newDiv = document.createElement("div");
-          const newContent = document.createTextNode("You have been logged in to" + p${index});
+          const newContent = document.createTextNode("You have been logged in to" + c.Name);
           newDiv.appendChild(newContent);
+        document.body.prepend("newDiv");
     </script>
   </body>
 </html>
