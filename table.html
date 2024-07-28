@@ -20,6 +20,10 @@
       </table>
     </main>
     <script>
+      function remove() {
+        const gay = document.getElementById("1")
+        gay.innerHTML = "<pre></pre>"
+      }
       function tableCreate() {
         let text = document.getElementById("text");
         let a = text.value;
@@ -36,6 +40,9 @@
             const te = tr.insertCell();
             te.style.border = '1px solid black';
             te.innerHTML = '<td>' + b + '</td>'
+            const tf = tr.inserCell();
+            tf.style.border = '1px solid black';
+            tf.innerHTML = '<td><button onclick="remove()">remove<button/></td>'
           }
         }
       }
