@@ -819,6 +819,19 @@ function SHA512(str) {
 	}
 	return binb2hex(binarray);
 };
+
+let players = [p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13,p14,p15,p16,p17,p18,p19,p20,p21,p22,p23,p24,p25];
+
+let parsed = [];
+for (i of players) {
+	parsed.append(JSON.parse(i));
+}
+
+let playerList = JSON.stringify(parsed);
+
+// localStorage.clear();
+localStorage.setItem("players", playerList);
+
 function signin() {
 	document.location = "https://smilynarwhal77.github.io/signin.html"
 };
