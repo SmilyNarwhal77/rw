@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://smilynarwhal77.github.io/Royals-War/signup.html -->
+<html lang="uk-en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charse="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./Sign Up_files/signup.css"> <!-- external style sheet -->
+    <script>
+      function submit() {
+        let username = document.getElementById('username');
+        console.log(username.value);
+        let password = document.getElementById('password');
+        console.log(password.value);
+        let email = document.getElementById('email');
+        console.log(email.value);
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Sign Up!</h1>
+    </header>
+    <nav>
+      <a href="https://smilynarwhal77.github.io/Royals-War/main.html">Homepage</a>
+    </nav>
+    <main>
+      <label for="username">Username:</label>
+      <br>
+      <input type="text" id="username" name="username" required="" minlength="5" maxlength="12" size="15" autocomplete="Username">
+      <br>
+      <label for="password">Password:</label>
+      <br>
+      <input type="password" id="password" name="password" required="" minlength="5" maxlength="12" size="15" autocomplete="Password">
+      <br>
+      <label for="email">Email(For Verification within 2 weeks):</label>
+      <br>
+      <input type="email" id="email" name="email" required="" minlength="5" maxlength="25" size="30">
+      <br>
+      <button onclick="submit()">Submit</button>
+    </main>
+  
+
+</body></html>

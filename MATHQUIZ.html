@@ -1,0 +1,54 @@
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title> My Math Quiz </title>
+			<script>
+				let score = 0;
+				let q1d = 'False';
+				let q2d = 'False';
+				const q1a = 2;
+				const q2a = 12;
+				const q1 = 'What is 1 + 1?';
+				const q2 = 'What is 3 x 4?';
+				function qclick(num) {
+					if num == 1;
+						if q1d != 'False';
+							document.write("You have already completed this question.");
+						else;
+							let pa1 = prompt("Please type your answer to question 1");
+							if pa1 == q1a;
+								score++;
+								document.write("Your answer is correct. Now, your current score is" + score);
+								q1d = 'True';
+							else;
+								document.write("Your answer is wrong. Your current score is still" + score);
+								q1d = 'True';
+					else if num == 2;
+						if q2d != 'False';
+							document.write("You have already completed this question");
+						else;
+							let pa2 = prompt("Please type your answer to question 2");
+							if pa2 == q2a;
+								score++;
+								document.write("Your answer is correct. Now, your current score is" + score);
+								q2d = 'True';
+							else;
+								document.write("Your answer is wrong. Your current score is still" + score);
+								q2d = 'True';
+				}
+			</script>
+		</head>
+		<body>
+			<button onclick="qclick(1)">
+				What is 1 + 1?
+			</button>
+			<button onclick="qclick(2)">
+				What is 3 x 4?
+			</button>
+			<footer>
+				&copy; Keegan Tan 2024
+				Email me <a href="mailto:keegan23.tan@gmail.com">here</a>!
+			</footer>
+		</body>
+	</html>

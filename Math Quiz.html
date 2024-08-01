@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> DIFFICULTY LEVEL 1  (EASY) </title>
+		<script>
+			let score = 0 ;
+			let question1completion = "No"
+			let question2completion = "No"
+			const q1ans = 2
+			const q2ans = 12
+			function correctanswer(num) {
+				score++ ;
+				document.write("Well Done! You have gotten the correct answer for question" + num + "Your current total score is " + score);
+				 if num = 1;
+					question1completion = "Yes";
+				else if num = 2;
+					question2completion = "Yes";
+			}
+			function wronganswer(num) {
+				if num = 1;
+					document.write("Oh Dear! You have gotten the wrong answer for question 1. Your current total score is " + score + ". The correct answer for this question is" + q1ans);
+					question1completion = "Yes";
+				else if num = 2;
+					document.write("Oh Dear! You have gotten the wrong answer for question 2. Your current total score is " + score + ". The correct answer for this question is" + q2ans);
+					question2completion = "Yes";
+			}
+		</script>
+	</head>
+	<body style="background-color:powderblue;">
+		<form>	
+			document.write("What is 1 + 1")
+			wronganswer(11)
+			correctanswer(2)
+			wronganswer(3)
+			document.write("What is 3 x 4?")
+			wronganswer(34)
+			wronganswer(7)
+			correctanswer(12)
+		</form>
+	</body>
+</html>

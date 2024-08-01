@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>&emsp; My Homepage</title>
+    <link rel="stylesheet" href="Homepage-styles.css">
+    <link rel="stylesheet" href="Achievements-styles.css">
+    <script>
+	    alert("Hi! My name is Keegan, welcome to my website!");
+	    console.log("Welcome, this was last updated " + document.lastModified);
+    </script>
+  </head>
+  <body>
+    <header>
+	<h1>  Keegan's Website &emsp; </h1>
+	<img src="IMG_1432_EDITED.JPG" alt="Duck Pics" width="500" height="175">
+    </header>
+    <main>
+      <article>
+	      <section>
+		      <div class="Subscribe">
+			 <a href="https://smilynarwhal77.github.io/dragonfyre1/Homepage.html">Home</a> &emsp; &ensp;
+			 <a href="https://dragonfyre23.wordpress.com/my-first/">My Firsts</a> &emsp; &ensp;
+			 <a href="https://dragonfyre23.wordpress.com/subscription-form/"> Subscribe </a> &emsp; &ensp;
+			 <a href="https://smilynarwhal77.github.io/dragonfyre1/About.html">My Achievements</a>
+		      </div>
+		      <br>
+		      <br>
+		      <!-- <div class="Achievements">
+			 <a href="https://smilynarwhal77.github.io/dragonfyre1/Achievements.html"> My Achievements </a> 
+		      </div>
+		      <div class="About">
+			 <a href="https://smilynarwhal77.github.io/dragonfyre1/About.html"> About Me </a> 
+		      </div> -->
+	      </section>
+	      <section>
+		      <h3>About Me</h3>
+		      Hi! My name is Keegan, welcome to my website!
+		      <br>
+		      This is where I upload my posts, achievements, and hacks.
+		      <br>
+		      I am turning 12 this year, and my hobbies are doing math, coding and playing computer games.
+		      <br>
+		      <br>
+	      </section>
+	<footer>
+		&ensp; © Keegan 2024
+		<br>
+		&ensp;  Email me <a href="mailto:keegan23.tan@gmail.com">here</a> (External)
+	</footer>
+  </body>
+</html>
