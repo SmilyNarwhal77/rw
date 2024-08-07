@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 :root {
-  --font-type: congenial, cursive;
+  --font-type: "Bungee", cursive;
 }
 
 html {margin:0;padding:0;}
