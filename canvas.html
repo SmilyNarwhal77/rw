@@ -1,1 +1,23 @@
 <!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <title>MRT</title>
+    <style>
+      canvas {
+        width: 700px;
+        height: 300px
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="d">
+  </body>
+  <script>
+    var canvas = document.getElementById("d");
+    var c = canvas.getContext("2d");
+    c.moveTo(20,80);
+    c.lineTo(40,60);
+    c.stroke();
+  </script>
+</html>
