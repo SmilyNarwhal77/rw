@@ -16,6 +16,10 @@
   <script>
     var canvas = document.getElementById("d");
     var c = canvas.getContext("2d");
+    var circle = 2*Math.PI;
+    c.moveTo(50,50);
+    c.arc(50, 50, 5, 0, circle);
+    c.stroke();
     c.moveTo(20,80);
     c.lineTo(40,60);
     c.stroke();
