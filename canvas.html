@@ -17,10 +17,10 @@
     var canvas = document.getElementById("d");
     var c = canvas.getContext("2d");
     var circle = 2*Math.PI;
-    c.strokeStyle = "#6f6";
+    c.strokeStyle = "#3f2";
     let x = 50;
     let y = 50;
-    for (let i=0, i<4, i++) {
+    for (let i=0; i<4; i++) {
       c.arc( x, y, 5, 0, circle);
       c.stroke();
       y += 5;
@@ -29,6 +29,16 @@
       c.lineTo(x,y);
       c.stroke();
       y += 5
+    };
+    for (let j=0; j<9; j++) {
+      c.arc( x, y, 5, 0, circle);
+      c.stroke();
+      x += 5;
+      c.moveTo(x, y);
+      x += 10;
+      c.lineTo(x,y);
+      c.stroke();
+      x += 5
     }
   </script>
 </html>
