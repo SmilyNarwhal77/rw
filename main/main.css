@@ -7,20 +7,10 @@
 html {margin:0;padding:0;}
 
 body {
-  background: conic-gradient(
-    from 0deg,
-    hsla(0 50% 10%),
-    hsla(72 50% 10% 0.3),
-    hsla(144 50% 10% 0.3),
-    hsla(216 50% 10% 0.3),
-    hsla(288 50% 10% 0.3),
-    hsla(0 50% 10% 0.3)
-  );
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  font-variant: small-caps;
+  background: #040124;
+  font-family: var(--font-type);
 }
 nav {
-  background-color: #affbf2;
   justify-content: space-evenly;
   display:flex;
   flex-direction: row;
@@ -28,8 +18,9 @@ nav {
   align-items: stretch;
   height: 50px;
   position: sticky;
-  top: 0;
+  top: 0;    
 }
+
 nav > button {
   color: #fbafe2;
   background-color: #affbf2;
@@ -37,20 +28,12 @@ nav > button {
   border-width: 3px;
   padding: 2px;
   height: 50px;
-  width: 80px;
-  align-items: stretch;
+  width: 80px;  
   font-family: var(--font-type);
 }
-h1 {
-  font-family: var(--font-type);
-  font-size: normal;
-}
-h4 {
-  font-family: var(--font-type);
-  font-size: normal;
-}
-h4 > a > span {
-  font-weight: 600;
-  font-style: italic;
-  color: black;
+
+footer {
+  padding: 25px;
+  background-color: black;
+  text-align: left;
 }
