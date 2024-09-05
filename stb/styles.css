@@ -28,3 +28,32 @@
         font-weight: 750;
       }
 }
+@media (max-width: 759px) and (min-width: 500px) {
+  nav ul {
+        list-style-type: none;
+        float: left;
+        padding-left: 1px;
+        margin-left: 0;
+        padding-right: 8px;
+        margin-right: 2px;
+        margin-top: 3px;
+        padding-top: 3px;
+        margin-bottom: 3.5px;
+        padding-bottom: 4px;
+        background-color: #67A7D7;
+        border-top-left-radius: 2.8px 2.8px;
+        border-top-right-radius: 3.2px 3.2px;
+        border-bottom-left-radius: 3.2px 2.8px;
+        border-bottom-right-radius: 2.8px 3.2px;
+        border-width: 0.8px 1.3px 1.3px 0.8px;
+        border-color: #111111;
+      }
+      ul li a:active, a:hover {
+        color: #999999;
+        text-decoration: none;
+        font-weight: 450
+      }
+      a#current {
+        font-weight: 750;
+      }
+}
