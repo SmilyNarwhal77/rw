@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="shrink-to-fit=no,initial-scale=1.0,width=device-width,height=device-height">
+    <title>Login to SUS portal</title>
+    <script>
+      window.onload = function () {
+        var login = localStorage.getItem("login");
+        if (!login = true) {
+          var toomanytries = localStorage.getItem("failure");
+          if (toomanytries = true) {
+            alert("too bad!");
+            document.location = "https://www.google.com";
+          };
+          break;
+        } else {
+          alert("You have already signed in.");
+          document.location = "https://smilynarwhal77.github.io/rw/sus/cms";
+        };
+        var tries = 0
+      }
+      function submit() {
+        var userpass = document.getElementById("password").value;
+        if (userpass = "6-4isthebest") {
+          alert("You have sucessfully signed in.");
+          document.getElementById("password").style.border = "2px solid limegreen";
+          document.location = "https://smilynarwhal77.github.io/rw/sus/cms";
+        } else if (tries = 3) {
+          localStorage.setItem("failure", true); 
+        } else {
+          alert("Wrong password. Please try again.");
+          document.getElementById("password").style.border = "2px solid red";
+          tries++
+        }
+    </script>
+  </head>
+  <body>
+    <header>
+      <strong>
+        --LOGIN--PAGE--
+      </strong>
+    </header>
+    <main>
+      <fieldset>
+        <label for="password" class="password">
+          Password:
+        </label>
+        <input type="password" name="password" id="password" class="password" placeholder="password" min="4" max="15">
+        <button onclick="submit()">Submit</button>
+      </fieldset>
+    </main>
+  </body>
+</html>
