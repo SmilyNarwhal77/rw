@@ -1,5 +1,6 @@
 table {
      margin: 0 auto;
+     background-color: white;
      float: left;
 }
 table, th, td {
